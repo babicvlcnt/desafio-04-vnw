@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-ser;
+}
+header {
+    background-color: #ffac85;
+}
+h1 {
+    padding-top: 1.5vh;
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color: rgb(255, 189, 189);
+}
+.conteiner-dados {
+    padding-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+}
+.dados {
+    padding-top: 2vh;
+    padding-left: 2vw;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.conteiner-options {
+    padding-left: 11vw;
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+}
+.shirt-size {
+    padding-top: 2vh;
+    padding-left: 2vw;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+.study-days {
+    padding-top: 2vh;
+    padding-left: 2vw;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+.submit{
+    height: 13vh;
+    padding-top: 2vh;
+    padding-left: 3vw;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+}
+footer {
+    margin-top: 11vh;
+    padding-top: 1.2vh;
+    padding-right: 1.2vw;
+    background-color: #ffac85;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
